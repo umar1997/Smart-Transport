@@ -1,0 +1,41 @@
+Link to papers:
+	https://drive.google.com/drive/folders/1obxBjZ5PqfQ_qZs1e2PiukrcyQKdIYRp
+
+
+
+1. Weighted TSP based on the number of passengers in the bus/shuffle
+Find all the routes for all the people on the bus and the roads which 
+are most used to acheive the destination for most people will have less people.
+
+2. Through the models defined in the paper we are trying to acheive a temporal optimization technique
+where we are using a choice function, cost matrix and cost function even to let go of some passengers, 
+but the only spatial optimization we are trying to do is differentiate high demand corridors from low demand.
+Here we can use the central system model
+
+If we are actually trying to solve the real problem then we need a survey to see when would a passenger 
+actually prefer a bus over a car. Simply saying that if we have an on demand system it would increase the passengers willing to come
+then we are not looking at the need of the target audience properly. What price range is suitable for travelling from A to B (Specific/Known places)
+and how many stops later should he reach his destination (Meaning how far is he willing to detour from the optimal route before he thinks this is a waste of time)
+
+
+Problem with Shared Taxis are No congestion and high prices and one person drop in A and other in B and third in C. Further more 
+The buses or vehicles arent going around empty looking for clients (Saving time and cost)
+
+ML Work that can be done for one is based on how long the perosn has to wait and many detours he has to take we can see the percentage
+of acceptability of the person willing to ride that public on demand transport.
+
+What if for the customer that is dropped or will cost us more to reroute and add him to the bus route in that case
+we send a car and then the passenger has the choice of whether he wants to opt for the expensive ride or not 
+
+
+Dictionary:
+
+Alight/Boarding = Getting on or off a vehicle
+rationalization = 
+Demand Responsive Transit = Dial a Ride System (Door to Door) - Isnt a proper replacement for the Traditional Bus Service
+				Traditional Bus Service are meant to not reduce congestion and be relatively cheaper
+Shared Taxis = The term above may come close to the idea of shared taxis which also work on specific demands but do 
+			not cater many people at a time	(No congestion and high prices)
+			And one person drop in A and other in B and third in C. (Reason to adopt spatial optimia=zation)
+FMOD (Flexible Mobility On Demand) = PRovides different levels of services to each person (Taxi, Shared Taxi, MiniBus)
+
